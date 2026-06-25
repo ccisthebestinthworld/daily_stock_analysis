@@ -66,8 +66,6 @@ jobs:
           STOCK_LIST: "SOFI,NOK,NVDA,MU"
           GENERATION_BACKEND: "deepseek"
           OPENAI_API_KEY: "${{ secrets.OPENAI_API_KEY }}"
-        run: |
-          python main.py
           # ==========================================
           # AI 配置
           # ==========================================
